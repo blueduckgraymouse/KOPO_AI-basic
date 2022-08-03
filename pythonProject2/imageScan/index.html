@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+    <form id="form" method="post" enctype="multipart/form-data" action="http://192.168.23.94:8000/compare">
+        <input type="file" name="file"/>
+        <input type="submit" value="전송"/>
+		<input type="button" id="button" value="전전송"/>
+    </form>
+	
+	<div id="result">
+	a
+	</div>
+	
+	<br><br>
+
+	<script>
+		$(function() {
+			$( '#button' ).click( function() {
+				alert("!a");
+
+				var form = $('#form')[0];
+				var formData = new FormData(form);
+
+				$.ajax({
+					url: "http://192.168.23.94:8000/compare",
+					type: 'POST',
+					data: formData,
+					cache: false,
+					contentType: false,
+					processData: false,
+					success: function(result) {
+						$('#result').html(JSON.stringify(result));
+					},
+				});
+			});
+		});
+	</script>
+</body>
