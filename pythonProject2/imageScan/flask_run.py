@@ -25,7 +25,7 @@ def comparePhoto():
             if 'file' not in request.files:
                 flash('No file part')
                 return redirect(request.url)
-            file = request.files['file']
+            file = request.files['file']            # 여기서 file은 input태그의 id
             # if user does not select file, browser also
             # submit a empty part without filename
             if file.filename == '':

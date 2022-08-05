@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c5c5726-cbd0-4f39-abd8-4f81f5a2452f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/textScan2/flask_run.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textScan2/index_ajax.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textScan2/index_axios.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imageScan/flask_run.py" beforeDir="false" afterPath="$PROJECT_DIR$/imageScan/flask_run.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/imageScan/index_ajax.html" beforeDir="false" afterPath="$PROJECT_DIR$/imageScan/index_ajax.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/imageScan/uploads/13.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/imageScan/uploads/18.jpg" beforeDir="false" />
@@ -47,7 +51,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "last_opened_file_path": "C:/Users/KOPO/PycharmProjects/pythonProject2/imageScan",
+    "last_opened_file_path": "C:/Users/KOPO/PycharmProjects/pythonProject2/textScan2",
     "settings.editor.selected.configurable": "PyConsoleConfigurable.Python Console"
   }
 }]]></component>
@@ -61,19 +65,19 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\KOPO\PycharmProjects\pythonProject2\textScan2" />
       <recent name="C:\Users\KOPO\PycharmProjects\pythonProject2\imageScan" />
       <recent name="C:\Users\KOPO\PycharmProjects\pythonProject2\imageScan_flask_mushrooms" />
       <recent name="C:\Users\KOPO\PycharmProjects\pythonProject2" />
       <recent name="C:\Users\KOPO\PycharmProjects\pythonProject2\flask" />
-      <recent name="C:\Users\KOPO\PycharmProjects\pythonProject2\imageScan\t" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\KOPO\PycharmProjects\pythonProject2\imageScan" />
       <recent name="C:\Users\KOPO\PycharmProjects\pythonProject2\imageScan\a" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.flask_run2">
-    <configuration name="crawling" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.flask_run (2)">
+    <configuration name="4_run" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject2" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -81,11 +85,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/imageScan_flask_mushrooms" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/textScan2" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/imageScan_flask_mushrooms/crawling.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/textScan2/4_run.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -128,6 +132,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/imageScan/flask_run.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="flask_run" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pythonProject2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/textScan2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/textScan2/flask_run.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -199,42 +224,21 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="retrain_run_inference2 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="pythonProject2" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/imageScan_flask_mushrooms" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/imageScan_flask_mushrooms/retrain_run_inference2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="Python.main" />
-      <item itemvalue="Python.crawling" />
+      <item itemvalue="Python.4_run" />
+      <item itemvalue="Python.flask_run" />
       <item itemvalue="Python.flask_run (1)" />
       <item itemvalue="Python.flask_run2" />
-      <item itemvalue="Python.retrain_run_inference2 (1)" />
       <item itemvalue="Python.flask_run (2)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.flask_run2" />
         <item itemvalue="Python.flask_run (2)" />
+        <item itemvalue="Python.flask_run" />
+        <item itemvalue="Python.4_run" />
+        <item itemvalue="Python.flask_run2" />
         <item itemvalue="Python.flask_run (1)" />
-        <item itemvalue="Python.crawling" />
-        <item itemvalue="Python.retrain_run_inference2 (1)" />
       </list>
     </recent_temporary>
   </component>

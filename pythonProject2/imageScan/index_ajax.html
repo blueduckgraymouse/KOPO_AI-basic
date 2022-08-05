@@ -19,7 +19,7 @@
 
 		<br><br>
 
-		<h1 class="text-secondary"> 강아지 이미지 분석 </h1>
+		<h1 class="text-secondary"> 강아지 이미지 분석 시스템</h1>
 
 		<br><br>
 
@@ -27,7 +27,7 @@
 			<table style="width:100%;">
 				<tr>
 					<td>
-						<input name="file" type="file" id="fileUpload" class="form-control" aria-describedby="button-addon2">
+						<input name="file" type="file" id="file" class="form-control" aria-describedby="button-addon2">
 					</td>
 				</tr>
 				<tr style="height:300px;">
@@ -85,7 +85,7 @@
 
 		$(function() {
 			// 파일 이미지 업로드 시 미리보기 & 이전 분석 결과 숨김
-			$("#fileUpload").on("change", function(event) {
+			$("#file").on("change", function(event) {
 				var file = event.target.files[0];
 
 				var reader = new FileReader();
@@ -100,7 +100,7 @@
 
 			// 분석 버튼 클릭시 사진 유무 판단 & ajax통신 후 결과 출력
 			$( '#button' ).click( function() {
-				if ($('#fileUpload').val() == "") {
+				if ($('#file').val() == "") {
 					alert("분석할 사진을 등록하세요.");
 					return;
 				}
@@ -146,7 +146,7 @@
 							data: {
 								labels: chartLabel,
 								datasets: [{
-									label: "Population (millions)",
+									label: "Percentage",
 									backgroundColor: chartColor,
 									data: chartData
 							  	}]
