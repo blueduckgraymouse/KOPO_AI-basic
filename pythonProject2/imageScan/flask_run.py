@@ -1,6 +1,8 @@
+# 업로드되는 파일명이 원본인 버전
+
 import numpy as np
 import tensorflow as tf
-
+import time
 from flask import Flask, request
 from flask_cors import CORS
 from werkzeug.utils import secure_filename
@@ -73,11 +75,13 @@ def comparePhoto():
             print('%d %s (score = %.5f)' % (node_id, human_string, score))
             save_string = ""
             if node_id == 0:
-                save_string = "shitzu"
+                save_string = "bulldog"
             elif node_id == 1:
-                save_string = "frenchbulldog"
+                save_string = "chihuahua"
+            elif node_id == 2:
+                save_string = "shihtzu"
             else:
-                save_string = "maltese"
+                save_string = "siba"
 
             result[save_string] = score
         answer = labels[top_k[0]]

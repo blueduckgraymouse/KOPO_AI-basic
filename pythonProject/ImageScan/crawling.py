@@ -6,7 +6,7 @@ import urllib.request
 driver = webdriver.Chrome('C:\\KOPO\\유틸\\chromedriver_win32 - 복사본\\chromedriver.exe')
 driver.get("https://www.google.co.kr/imghp?h1=ko&tab=wi&ogb1") #이미지검색
 elem = driver.find_element_by_name("q") #검색창을 찾아서
-elem.send_keys("식용버섯 사진")
+elem.send_keys("poisonous mushrooms pictures")
 elem.send_keys(Keys.RETURN) #엔터키
 
 ###################스크롤바 내림################################
@@ -47,7 +47,8 @@ for image in images:
         #"/html/body/div[2]/c-wiz/div[3]/div[2]/div[3]/div/div/div[3]/div[2]/c-wiz/div[1]/div[1]/div/div[2]/a/img"
 
         print(imageUrl)
-        PathUrl = "C:\\Users\\KOPO\\Desktop\\사진\\식용버섯\\"
+        PathUrl = "C:\\Users\\KOPO\\Desktop\\사진\\poisonous mushrooms\\"
+
 
         urllib.request.urlretrieve(imageUrl, PathUrl + str(cnt) + ".jpg")
         cnt += 1
