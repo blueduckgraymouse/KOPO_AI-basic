@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c5c5726-cbd0-4f39-abd8-4f81f5a2452f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../pythonProject/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imageScan/index_ajax.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pythonProject/ImageScan/crawling.py" beforeDir="false" afterPath="$PROJECT_DIR$/../pythonProject/ImageScan/crawling.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flask/flask_run.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask/flask_run.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flask/test.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/flask/test.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imageScan/flask_run.py" beforeDir="false" afterPath="$PROJECT_DIR$/imageScan/flask_run.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imageScan/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imageScan/test.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/imageScan/test.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imageScan/index_ajax.html" beforeDir="false" afterPath="$PROJECT_DIR$/imageScan/index_ajax.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/imageScan/uploads/13.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/imageScan/uploads/18.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/imageScan/uploads/20.jpg" beforeDir="false" />

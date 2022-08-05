@@ -13,11 +13,13 @@
 	<!-- chart.js -->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
 </head>
+
 <body>
 	<div class="container" style="min-width:400px;max-width:700px;">
+
 		<br><br>
 
-		<h1 class="text-secondary"> 강아지 이미지 분석</h1>
+		<h1 class="text-secondary"> 강아지 이미지 분석 </h1>
 
 		<br><br>
 
@@ -46,25 +48,6 @@
 		<br><br>
 		<div id="alert"></div>
 		<div id="result" style="display:none;">
-			<!--<h3>* 사진의 강아지는 <span id="bestDog" style="color:blue;"></span>입니다.</h3>-->
-			<!--<table class="table table-hover">
-				<tr class="table-light">
-					<td id="name1"></td>
-					<td id="percent1"></td>
-				</tr>
-				<tr class="table-light">
-					<td id="name2"></td>
-					<td id="percent2"></td>
-				</tr>
-				<tr class="table-light">
-					<td id="name3"></td>
-					<td id="percent3"></td>
-				</tr>
-				<tr class="table-light">
-					<td id="name4"></td>
-					<td id="percent4"></td>
-				</tr>
-			</table>-->
 			<canvas id="pie-chart" style="width:70%;"></canvas>
 		</div>
 	</div>
@@ -84,6 +67,8 @@
 			}
 			return korName;
 		}
+
+		// chart 그래프에 채워질 색을 강아지 이름과 매핑
 		function mappingColorToName(EngName) {
 			let Color = "";
 			if (EngName === 'chihuahua') {
@@ -149,16 +134,10 @@
 						let chartData = [];
 						let chartColor = [];
 						$.each(sortData, function(index, value) {
-							//$('#name' + (index+ 1)).html(convertKorName(value.key));
-							//$('#percent' + (index+ 1)).html((value.value * 100).toFixed(2) + "%");
-
 							chartLabel.push(convertKorName(value.key));
 							chartData.push((value.value * 100).toFixed(2));
 							chartColor.push(mappingColorToName(value.key));
 
-							//if (index === 0) {
-							//	$('#bestDog').html(convertKorName(value.key));
-							//}
 						});
 
 						// 분석 차트 작성
@@ -175,7 +154,8 @@
 							options: {
 							  	title: {
 									display: true,
-									text: '강아지 사진 분석 결과'
+									fontSize: 35,
+									text: '- 강아지 사진 분석 결과 -'
 								}
 							}
 						});
