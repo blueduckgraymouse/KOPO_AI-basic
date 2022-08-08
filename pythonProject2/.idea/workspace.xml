@@ -2,18 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c5c5726-cbd0-4f39-abd8-4f81f5a2452f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/textScan2/flask_run.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/textScan2/index_ajax.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/textScan2/index_axios.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imageScan/flask_run.py" beforeDir="false" afterPath="$PROJECT_DIR$/imageScan/flask_run.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imageScan/index_ajax.html" beforeDir="false" afterPath="$PROJECT_DIR$/imageScan/index_ajax.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imageScan/uploads/13.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imageScan/uploads/18.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imageScan/uploads/20.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imageScan/uploads/26.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imageScan/uploads/3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imageScan/uploads/7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/textScan2/index_ajax.html" beforeDir="false" afterPath="$PROJECT_DIR$/textScan2/index_ajax.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,12 +39,12 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "last_opened_file_path": "C:/Users/KOPO/PycharmProjects/pythonProject2/textScan2",
-    "settings.editor.selected.configurable": "PyConsoleConfigurable.Python Console"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/KOPO/PycharmProjects/pythonProject2/textScan2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;PyConsoleConfigurable.Python Console&quot;
   }
-}]]></component>
+}</component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
       <console-settings module-name="pythonProject2" is-module-sdk="true">
@@ -76,7 +66,7 @@
       <recent name="C:\Users\KOPO\PycharmProjects\pythonProject2\imageScan\a" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.flask_run (2)">
+  <component name="RunManager" selected="Python.flask_run">
     <configuration name="4_run" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject2" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -226,6 +216,7 @@
     </configuration>
     <list>
       <item itemvalue="Python.main" />
+      <item itemvalue="Python.inceptionv3_retrain" />
       <item itemvalue="Python.4_run" />
       <item itemvalue="Python.flask_run" />
       <item itemvalue="Python.flask_run (1)" />
@@ -234,8 +225,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.flask_run (2)" />
         <item itemvalue="Python.flask_run" />
+        <item itemvalue="Python.flask_run (2)" />
         <item itemvalue="Python.4_run" />
         <item itemvalue="Python.flask_run2" />
         <item itemvalue="Python.flask_run (1)" />

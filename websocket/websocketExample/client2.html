@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<meta charset='utf-8'>
+<title>서버에서 신호 받기</title>
+<script>
+ 
+    var log = function(s) {
+        console.log(s);
+        if (document.readyState !== "complete") {
+            log.buffer.push(s);
+        } else {
+            document.getElementById("output").innerHTML += (s + "\n");
+        }
+    }
+    log.buffer = [];
+    url = "ws://127.0.0.1:8080";
+    w = new WebSocket(url);
+ 
+    w.onopen = function() {
+        log("open");
+        w.send("thank you for accepting this Web Socket request");
+    }
+ 
+    w.onmessage = function(e) {
+        console.log(e.data);
+        headMS = e.data.substr(0,2);
+        console.log("HEAD => " + headMS);
+        if(headMS == "IP") {
+
+        } else if(headMS == "HM") {
+
+        } else if(headMS == "HI") {
+            document.getElementById("processText").innerHTML = "여기도요~~";
+        }  else if(headMS == "AA") {
+            document.getElementById("processText").innerHTML = "나만 동작하지요~";
+        }
+    }
+ 
+    w.onclose = function(e) {
+        log("closed");
+    }
+ 
+    window.onload = function() {
+        log(log.buffer.join("\n"));
+        document.getElementById("sendButton").onclick = function() {
+            console.log(document.getElementById("inputMessage").value);
+            w.send(document.getElementById("inputMessage").value);
+        }
+    }
+
+    function startApp() {
+        document.getElementById('processText').hidden = false;
+        document.getElementById('startAppButton').hidden = true;
+    }
+</script>
+ 
+<style>
+  .title {
+    margin-top: 50px;
+    font-size: 50pt;
+    width: 100%; 
+    margin-bottom: 50px;
+    border: 10px;
+    text-align: center;
+  }
+  .logotitle {
+	width: 53%;
+	text-align: center;
+	align: center;
+	display: inline-block;
+  }
+  .memo {
+	width: 30%; 
+	height: 150px;
+	 background-color: #D7DF01;
+	width: 400px;
+	text-align: center;
+	display: inline-block;
+  }
+  .textTitle {
+    color : #424242;
+  }
+  #sendbutton {
+    font-size : 50pt;
+    text-align: center;
+    width: 70%;
+  }
+
+  #selectbox {
+    margin-top: 100px;
+    font-size : 50pt;
+    text-align: center;
+    width: 70%;
+    height: 300px;
+  }
+
+</style>
+<audio controls hidden id="audioPlayer"></audio>
+<form>
+    <div class="title">
+      <input id="startAppButton" style="font-size:50pt;height:300px;" type="button" onClick="startApp()" value="시작하려면 버튼을 클릭하세요."></input>
+    </div>
+    <div class="title">
+      <p hidden id="processText" class="textTitle">준비 대기중</p>
+    </div>
+    <div class="title">
+      <p id="resultText" class="textTitle"></p>
+    </div>
+  
+</form>
+
+</html>
